@@ -1,0 +1,21 @@
+#main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+
+    a {
+        color: blue; 
+        text-decoration: none; 
+        transition: color 0.3s; 
+    }
+
+    
+    a:hover {
+        color: red; 
+    }
+}
+
+.font_style {
+    font-family: "Times New Roman", Times, serif;
+}
